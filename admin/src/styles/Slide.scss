@@ -1,0 +1,34 @@
+@import "var.scss";
+@import "mixin.scss";
+
+.slide {
+  padding: 25px 0 50px;
+  width: 20%;
+  height: 100%;
+  background: $color-primary-dark;
+  flex-direction: column;
+  @include flex-ai-center;
+
+  &-top {
+    width: 100%;
+    height: 100%;
+  }
+
+  &-button {
+    padding-left: 15%;
+    width: 100%;
+    height: 10%;
+    @include flex-ai-center;
+    border-bottom: 1px $color-bg solid;
+    gap: 15px;
+    cursor: pointer;
+
+    a {
+      color: $color-bg;
+    }
+
+    &:hover {
+      background: $color-accent-dark;
+    }
+  }
+}
