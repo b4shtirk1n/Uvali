@@ -1,13 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="container header">
+            <nav class="navigation">
+                <li class="navigation-list">
+                    <div class="navigation-list Title">
+                        <img src="./source/logo.svg" class="navigation-list ulTitle"></img>
+                    </div>
+                        <div class="navigation-list photo">
+                        <ul class="navigation__el">объекты</ul>
+                        <ul class="navigation__el">статистика затрат</ul>
+                        <ul class="navigation__el">интерактивная карта</ul>
+                    
+                    <div class="navigation-icons">
+                        <img class="navigation__el" src="./source/1.svg" class="image"></ul>
+                        <img class="navigation__el" src="./source/2.svg" class="image"></ul>
+                        <img class="navigation__el" src="./source/3.svg" class="image"></ul>
+                    </div>
+                    </div>
+                </li>
+            </nav>
+        </div>
+    </header>
+    <div class="section-backimg">
+    <section class="container section">
+            <div class="container section-container">
+                <div class="section-container_welcome"><hr class="section-line">
+                    <p class="welcome__title">Добро пожаловать</p>
+                </div>
+                <h1 class="section-container__city">Звездные увалы</h1>
+                <p class="section-container__description">это город в России, расположенный в Омской области. Он был 
+                    основан в 1970-х годах и назван в честь близлежащего
+                     космического центра.</p>
+                     <button class="section-container__button">
+                        Голосовать  
+                     </button>
+            </div>
+        </div>
+    </section>
+    <section class="container section information">
+        <div class="section-steps">
+            <p class="section-information__title">Шаги голосования
+                за свой объект</p>
+                <p class="section-information__subtitle">голосование помогает формировать общественное мнение и может привести к положительным изменениям в жизни общества. 
+                    Поэтому важно участвовать в голосовании и делать свой голос услышанным.</p>
+        </div>
+
+        <div class="section-steps__info">
+            <div class="section-step__description">
+                <p class="section-step__number">1.</p>
+                <p class="section-step__info firststep">Необходимо зайти на сайт, где проходит голосование.</p>
+            </div>
+            <div class="section-step__description">
+                <p class="section-step__number">2.</p>
+                <p class="section-step__info secondstep">Далее нужно выбрать объект, за который хотите проголосовать, и ознакомиться с его характеристиками.</p>
+            </div>
+            <div class="section-step__description">
+                <p class="section-step__number">3.</p>
+                <p class="section-step__info thirdstep">Затем нужно нажать на кнопку “Проголосовать” и следовать инструкциям на экране.</p>
+            </div>
+        </div>
+        <div class="section-information">
+            <div>
+                <p class="section-information__info object">Объекты</p>
+            </div>
+            <div>
+                <p class="section-information__info">В рамках выделенных 100 млн рублей у Вас есть возможность спроектировать территорию для себя и своих близких</p>
+            </div>
+           <div>
+            <div class="section-information__info__backgroundcolor">
+                <p class="section-information__info req">Обязательным условием является невозможность включения объектов,
+    если сумма уже выходит за пределы 75 млн</p>
+            </div>
+           </div>
+        </div>
+        <div class="section-objects spring">
+                <img src="source/7.svg" alt="">
+                <div class="section-object__springinfo">
+                    <div class="section-object springimg">
+                        <img src="./source/8.svg" alt="">
+                        <img src="./source/9.svg" alt="">
+                        <img src="./source/10.svg" alt="">
+                    </div>
+                    <div class="section-object__nameobject">
+                        <h2 class="section-object__name">Благоустройство родника</h2>
+                        <h3 class="section-object__budget">Бюджет: от 3 до 5 млн рублей</h3>
+                        <button class="section-object__vote">Голосовать</button>
+                    </div>
+                </div>
+        </div>
+        <div class="section-objects firstrow">
+            <div class="section-object__block">
+                <div class="section-object first">
+                    <div class="section-object__container">
+                    <p class="object__name">Благоустройство родника</p>
+                    <p class="object__cost">от 3-5 млн. рублей</p>
+                    </div>
+                </div>
+            <div class="object__vote">Голосовать</div>
+            </div>
+            <div class="section-object__block">
+                <div class="section-object first">
+                    <div class="section-object__container">
+                        <p class="object__name">Благоустройство родника</p>
+                        <p class="object__cost">от 3-5 млн. рублей</p>
+                    </div>
+                </div>
+                <div class="object__vote">Голосовать</div>
+            </div>
+            <div class="section-object__block">
+                <div class="section-object first">
+                    <div class="section-object__container">
+                        <p class="object__name">Благоустройство родника</p>
+                        <p class="object__cost">от 3-5 млн. рублей</p>
+                    </div>
+                </div>
+                <div class="object__vote">Голосовать</div>
+            </div>
+        </div>
+        <div class="section-objects secondrow">
+            <div class="section-object__block">
+                <div class="section-object first">
+                    <div class="section-object__container">
+                        <p class="object__name">Благоустройство родника</p>
+                        <p class="object__cost">от 3-5 млн. рублей</p>
+                    </div>
+                </div>
+                <div class="object__vote">Голосовать</div>
+            </div>
+            <div class="section-object__block">
+                <div class="section-object first">
+                    <div class="section-object__container">
+                        <p class="object__name">Благоустройство родника</p>
+                        <p class="object__cost">от 3-5 млн. рублей</p>
+                    </div>
+                </div>
+                <div class="object__vote">Голосовать</div>
+            </div>
+            <div class="section-object__block">
+                <div class="section-object first">
+                    <div class="section-object__container">
+                        <p class="object__name">Благоустройство родника</p>
+                        <p class="object__cost">от 3-5 млн. рублей</p>
+                    </div>
+                </div>
+                <div class="object__vote">Голосовать</div>
+            </div>
+        </div>
+        </div>
+        <div class="section__button__showmore">
+            <button class="section-container__button showmore">
+                Показать ещё
+            </button>
+        </div>
+            <div class="section-img">
+                <img src="./source/6.svg" class="section-img__img" alt="">
+            </div>
+            <div class="section-navimg">
+                    <label class="section-navimg__point" >
+                        <input type="radio" class="radio" name="point" checked />
+                        <span class="fake"></span>
+                    </label>
+                    <label class="section-navimg__point" >
+                            <input type="radio" class="radio" name="point"/>    
+                            <span class="fake"></span>
+                    </label>
+                    <label class="section-navimg__point">
+                        <input type="radio" class="radio" name="point" />
+                        <span class="fake"></span>
+                    </label>
+                    <label class="section-navimg__point">
+                        <input type="radio" class="radio" name="point" />
+                        <span class="fake"></span>
+                    </label>
+                    <label class="section-navimg__point">
+                        <input type="radio" class="radio" name="point" />
+                        <span class="fake"></span>
+                    </label>
+                    <label class="section-navimg__point">
+                        <input type="radio" class="radio" name="point" />
+                        <span class="fake"></span>
+                    </label>
+            </div>
+    </section>
+    <div class="section-backgroundcolor">
+    <section class="container section-stats">
+        <div class="section-stats__info">
+            <h1 class="section__title-stats">Статистика затрат</h1>
+            <div class="section__info">В рамках выделенных средств участнику опроса предлагается спроектировать территорию, экопарк, который бы привлекал для посещения в будущем участника игры и его близких.</div>
+        </div>
+        <div class="section-stats-cost">
+            <p class="section-stats-cost__onehundred"><span class="onehundred">100</span><span class="million">млн</span>
+            Общий выделенный бюджет проекта</p>
+            <p class="section-stats-cost__onehundred" ><span class="onehundred">75</span ><span  class="million">млн</span>
+            объектов культуры, отдыха и спорта на местности.</p>
+        </div>
+        <div class="section-stats-cost left">
+                        <p class="section-stats-cost__onehundred"><span class="onehundred">25</span><span class="million">млн</span>
+                            Для устройства стоянки
+                            освещение и видеонаблюдение</p>
+            <div class="section-stats-cost__onehundred"></div>
+        </div>
+    </section>
+    </div>
+    <section class="container section-map">
+        <h1 class="section-map__title">Интерактивная карта</h1>
+        <div class="sectiom-background__map">
+            
+        </div>
+    </section>
+    <footer>
+        <div class="container footer">
+            <nav class="navigation">
+                <li class="navigation-list">
+                    <div class="navigation-list Title">
+                        <img src="./source/logo_white.svg" class="navigation-list ulTitle"></img>
+                    </div>
+                        <div class="navigation-list photo">
+                            <ul class="navigation__el">фото</ul>
+                            <ul class="navigation__el">выбор</ul>
+                            <ul class="navigation__el">карта</ul>
+                            <ul class="navigation__el">отчет</ul>
+                            <ul class="navigation__el">деятельность</ul>
+                        </div>
+            </nav>
+            <hr class="footer__line">
+            <nav class="navigation footernav">
+                <li class="navigation-list">
+                    <div class="navigation-list Title">
+                        <ul class="navigation-list ulTitle footer">8 (35253)33215</ul>
+                        <ul class="navigation-list ulTitle footer">grad@shadrinsk-city.ru</ul>
+                    </div>
+                    <div class="navigation-icons footericons">
+                        <img class="navigation__el" src="./source/vk_white.svg" class="image"></ul>
+                        <img class="navigation__el" src="./source/viber_white.svg" class="image"></ul>
+                        <img class="navigation__el" src="./source/telegram_white.svg" class="image"></ul>
+                    </div>
+            </nav>
+        </div>
+    </footer>
+</body>
 </html>
